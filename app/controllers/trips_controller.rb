@@ -13,6 +13,6 @@ class TripsController < ApplicationController
       end_time: params[:end_time]
     )
     @trip.save
-    render json: {message: "You have created a new trip"}
+    render :show
   end
 end
