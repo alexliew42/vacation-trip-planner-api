@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
   get "/places" => "places#index"
-  get "/trips" => "trips#index"
+  post "/places" => "places#create"
+
   post "/users" => "users#create"
+
+  get "/trips" => "trips#index"
   post "/trips" => "trips#create"
 end
