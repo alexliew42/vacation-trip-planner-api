@@ -1,4 +1,6 @@
 class PlacesController < ApplicationController
+  # before_action :authenticate_user
+
   def index
     @places = Place.where(trip_id: params[:trip_id])
     render :index
