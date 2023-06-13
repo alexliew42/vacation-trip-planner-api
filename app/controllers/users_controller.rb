@@ -1,4 +1,10 @@
 class UsersController < ApplicationController
+  
+  def index
+    @user = User.where(id: current_user.id)
+    render :index
+  end
+  
   def create
     user = User.new(
       name: params[:name],
