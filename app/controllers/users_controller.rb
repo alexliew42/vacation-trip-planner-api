@@ -1,9 +1,9 @@
 class UsersController < ApplicationController
   
-  def index
-    @user = User.where(id: current_user.id)
-    render :index
-  end
+  # def show
+  #   @user = User.find_by(id: current_user.id)
+  #   render current_user
+  # end
   
   def create
     user = User.new(
