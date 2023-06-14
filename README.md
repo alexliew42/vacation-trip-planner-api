@@ -1,24 +1,34 @@
-# README
+# TravelCity
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Describe your app here. (What is your 1 minute “elevator pitch” of your capstone project? What problem does it solve? What inspired you to build it?)
+TravelCity is a vacation trip planner app that allows users to plan for trips and log vacations. 
+It solves the organization aspect of creating a trip planner by hand because each trip has unique places.
+I was inspired to build it because I am going on vacation soon and wanted to create an app that I could potentially use. 
 
-Things you may want to cover:
 
-* Ruby version
+Describe the technologies you used to build your app (Ruby on Rails backend, React.js frontend, any libraries, APIs, etc.)
+* Ruby on Rails backend
+* React.js frontend
+* Pigeon maps
+* Geocoder
 
-* System dependencies
+Optional: Add screenshots or gifs of your application
 
-* Configuration
+## Installation
 
-* Database creation
+```bash
+npm install
+```
 
-* Database initialization
+## Usage
 
-* How to run the test suite
+```bash
+npm run dev
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+You'll need to have the backend code (https://github.com/alexliew42/vacation-trip-planner-api) running on http://localhost:3000.
+You can view the app on http://localhost:5173.
 
-* Deployment instructions
+## Roadmap
 
-* ...
+List any ideas you plan on implementing in the future.
